@@ -23,3 +23,26 @@ do {
   console.log(i);
   i++;
 } while ( i < 10 );
+
+//////////////////////////////
+
+/*
+ループ処理
+for文
+*/
+
+// break ループ処理を抜ける
+for ( var i = 0; i < 10; i++ ) {
+  if ( i === 5 ) {
+    break;
+  }
+  console.log(i);
+}
+
+// continue ループ処理を1回スキップする
+for ( var i = 0; i < 10; i++ ) {
+  if ( i === 5 ) {
+    continue;
+  }
+  console.log(i);
+}
