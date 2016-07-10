@@ -8,4 +8,6 @@
 4. 条件分岐(if文)
 5. 三項演算子&amp;真偽値
 6. 条件分岐(switch文)
-7. while文
+7. while文 + for文
+8. alert,confirm,prompt
+9. 関数の使い方
