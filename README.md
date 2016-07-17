@@ -12,5 +12,5 @@
 8. alert,confirm,prompt
 9. 関数の使い方
 10. 即時関数
-11　タイマー処理( setInterval､setTimeout)
-12　配列を使う
+11. タイマー処理( setInterval､setTimeout)
+12. 配列を使う
