@@ -56,3 +56,42 @@ console.log(a);
 //それ以降...追加
 a.splice(1, 2, 800, 1000);
 console.log(a);
+
+/////////////////
+
+/*
+Mathオブジェクト
+Newする必要は無い
+数学的値を出す時に使用
+*/
+
+//π 円周率
+console.log(Math.PI);
+
+//天井という意味 実数を渡すと切り上げ -> 6
+console.log(Math.ceil(5.3));
+
+//床という意味 実数を渡すと切り捨て -> ５
+console.log(Math.floor(5.3));
+
+//四捨五入 -> ５
+console.log(Math.round(5.3));
+
+//0~1未満の実数を呼び出す時に生成
+console.log(Math.random());
+
+/////////////////
+
+//Dateオブジェクト
+
+//現在時刻のオブジェクト取得
+var d = new Date();
+
+//特定位置付けを取得したい時は、年月日を記入
+//注意 -> Jsでは月が０から始まる 2月なら1になる
+//2月11日 10時20分30秒
+// var d = new Date(2014, 1, 11, 10, 20, 30);
+
+console.log(d.getFullYear());//年取得
+console.log(d.getMonth());//月取得
+console.log(d.getTime());//基準日からの経過ミリ秒
